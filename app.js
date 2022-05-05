@@ -5,6 +5,5 @@ console.log('icon');
 icon.addEventListener('click', () => {
   menuElements.forEach((e) => {
     e.classList.toggle('active');
-    console.log(e);
   });
 });
